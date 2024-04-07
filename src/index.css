@@ -1,0 +1,74 @@
+
+.LandingAll{
+  color: black;
+  background-color: #fff;
+  width:100% !important;
+  height:auto;
+  margin: 0;
+
+}
+
+a.navTitle{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+bg-light {
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.navbar-nav{
+  gap:0.5em;
+}
+header.headImg{
+  position: relative;
+  background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+@media (min-width: 768px){
+header.headImg {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+}
+
+.wholeTextDiv{
+  justify-content: center !important;
+  
+}
+h1{
+  font-size: 3rem;
+}
+
+.fticons{
+  height: 4rem;
+  font-size: 3.5rem;
+  color:blue;
+}
+.d-flex{
+  justify-content: center !important;
+}
+.features-icons,.testimonials,.footer {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+
+@media (min-width: 768px){
+.showcase .showcase-text {
+    padding: 7rem;
+}
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.navIconStyle{
+  font-size:30px;
+  color:blue;
+}
